@@ -15,4 +15,4 @@ done
 
 echo "Sending Email"
 
-cat /home/hf/s3bucketreport/log.$date.log | mail -s "Daily S3 Bucket Security Report" -a "From: Admin Name <noreply@example.org>" jmasci@hypergrid.com
+cat /home/hf/s3bucketreport/log.$date.log | mail -s "Daily S3 Bucket Security Report" -a "From: HyperGrid Reporting <noreply@HyperGrid.com>" jmasci@hypergrid.com
